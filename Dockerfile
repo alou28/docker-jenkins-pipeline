@@ -1,5 +1,5 @@
 FROM node:latest
 LABEL maintainer="alainngomedj4@gmail.com"
-RUN npm install
 COPY . /
+RUN npm install
 CMD ["npm", "start"]
